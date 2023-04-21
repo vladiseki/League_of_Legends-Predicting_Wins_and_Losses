@@ -36,11 +36,11 @@ Examined 15 team statistics at the 15 minute mark:
     - Opponent's Deaths
     
 The decision tree model produced an accuracy score of 74.13%. Which means that out of the total testing data (wins and losses) the model has predicted 1512/1912 losses correctly, and 1309/1893 wins correctly. Below is a confusion matrix showing this.
-![Test Data Confusion Matrix]('./images/test_cm.png')
+![Test Data Confusion Matrix](./images/test_cm.png)
 
 ## 1. Predictive Features and their importance
 Shows the weighted importance of each predictive feature.
-![Decision Tree Model - Feature Importance]('./images/features.png')
+![Decision Tree Model - Feature Importance](./images/features.png)
 
 ## 2. Relationship between Gold Difference and Results
 Shows the relationship between teams Gold Difference and results.
@@ -63,8 +63,16 @@ In conclusion a 74% predictor would be absolutely fantastic in the world of espo
 It's all sunshine and rainbows in theory, but the real juice comes from practice. A deeper analysis would be needed to further improve upon these results. I'd like to investigate the following features to iterate upon the current model: team names and leagues. Maybe some teams on average just transcend the statistics and come away with wins no matter what. Different teams belong to different leagues and just like the NBA is probably better than most other professional basketball leagues, maybe this too applies to League of Legends leagues.
 
 ## For More Information
-See the full analysis in the [Jupyter Notebook]()
+See the full analysis in the [Jupyter Notebook](https://github.com/vladiseki/Phase_3_Predictive_Project/blob/main/LoL_Result_Predictions_Final.ipynb)
 
-or review this [Presentation]()
+or review this [Presentation](https://github.com/vladiseki/Phase_3_Predictive_Project/blob/main/League%20of%20Legends%20Result%20Prediction%20-%20Phase%203%20Project.pdf)
 
+## Repository Structure
 
+```
+├── LoL_Result_Predictions_Final.ipynb
+├── 2022_LoL_esports_match_data_2022_07_25.csv
+├── images
+├── README.md
+├── League of Legends Result Prediction - Phase 3 Project.pdf
+```
