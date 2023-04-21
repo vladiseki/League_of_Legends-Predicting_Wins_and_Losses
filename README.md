@@ -36,6 +36,7 @@ Examined 15 team statistics at the 15 minute mark:
     - Opponent's Deaths
     
 The decision tree model produced an accuracy score of 74.13%. Which means that out of the total testing data (wins and losses) the model has predicted 1512/1912 losses correctly, and 1309/1893 wins correctly. Below is a confusion matrix showing this.
+
 ![Test Data Confusion Matrix](./images/test_cm.png)
 
 ## 1. Predictive Features and their importance
